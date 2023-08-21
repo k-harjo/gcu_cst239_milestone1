@@ -1,0 +1,39 @@
+VIDEO LINK:
+https://youtu.be/Oo_pw3CxxS0
+
+
+# StoreFront Application
+
+This Java application simulates a store front where salable products can be managed, added to a shopping cart, purchased, and returned to inventory. The program uses various classes to represent different aspects of the store, including salable products, inventory management, shopping carts, and the store front itself.
+
+## How to Use
+
+1. Ensure you have a Java development environment set up.
+2. Compile the source code using your preferred Java compiler.
+3. Run the `StoreFrontApplication` class.
+
+The application will initialize the store with sample products, demonstrates product purchase and cancellation, and displays the final inventory and shopping cart contents.
+
+## Class Structure
+
+- `SalableProduct`: Represents a product that can be sold. Contains attributes such as name, description, price, and quantity. Provides getters and setters for these attributes.
+
+- `InventoryManager`: Manages the inventory of salable products. Supports adding products to the inventory and retrieving the list of products.
+
+- `ShoppingCart`: Represents a shopping cart that can hold salable products. Supports adding and removing products from the cart, and retrieving the cart items.
+
+- `StoreFront`: Represents the store front application. Initializes the store with products, allows purchasing and cancellation of products, and provides methods for managing the store's functionality.
+
+- `StoreFrontApplication`: Contains the `main` method to run the application. Demonstrates various interactions with the store front, including product purchase and cancellation.
+
+## Usage Example
+
+After running the `StoreFrontApplication`, you will see output indicating the product purchase and cancellation, as well as the final inventory and shopping cart contents.
+
+## Note
+
+This program is a simple demonstration of store management functionalities. It does not include advanced error handling, user interfaces, or persistent data storage.
+
+Feel free to explore and modify the code to suit your needs and to further enhance the functionalities of the store front application.
+
+---
